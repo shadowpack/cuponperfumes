@@ -1,0 +1,200 @@
+.bigCatalog{
+	float: left;
+	width: 380px;
+	height: 380px;
+	left: 5px;
+	padding: 0px 3px 0px 3.3px;
+	padding-top: 10px;
+	margin: 0 auto
+}
+.bigCatalog .containerCat{
+	position: relative;
+	height: 100%;
+	width: 372px;
+	border: solid 1px #d5d5d5;
+	background: #fff;
+	padding-top: 10px;
+	box-shadow: 0 2px 4px #e6e6e6;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.bigCatalog .containerCat:hover{
+	box-shadow: 0 0 15px #888;
+	cursor: pointer;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+	/*SECCION DEL HEADER*/
+	.bigCatalog .header{
+		background: #fafafa;
+		border-top: solid 1px #f4f4f4;
+		border-bottom: solid 1px #f4f4f4;
+		color: #333;
+		padding: 0 10px;
+		height: 30px;
+	}
+	.bigCatalog .header .title{
+		float: left;
+		width: 135px;
+		line-height: 32px;
+		min-height: 32px;
+		vertical-align: middle;
+		font-family: 'Helvetica';
+		color: #777;
+		font-size: 12px;
+		font-weight: bolder;
+		text-align: left;
+	}
+	.bigCatalog .header .social{
+		float: left;
+		width: 170px;
+		line-height: 32px;
+		min-height: 32px;
+		vertical-align: middle;
+		font-family: 'Helvetica';
+		color: #777;
+		font-size: 16px;
+		padding: 5px 0px 5px 0px;
+		font-weight: bolder;
+	}
+	/*FIN SECCION HEADER*/
+	/*IMAGEN*/
+	.bigCatalog .image{
+		position: relative;
+		top:10px;
+		left: 0px;
+		height: 220px;
+		width: 326.8384px;
+	}
+	.bigCatalog .image .img{
+		position: absolute;
+		width: 326.8384px;
+		top: 0px;
+		left: 0px;
+	}
+	/*FIN IMAGEN*/
+	/*FOOTER*/
+	.bigCatalog .footerCatag{
+		float:left;
+		padding:14px 5px 0px 5px;
+	}
+		/*FOOTERLEFT*/
+		.bigCatalog .footerCatag .footerLeft{
+			float: left;
+			width: 160px;
+			min-height: 50px;
+			border-right:solid 1px #f4f4f4;
+			border-top:solid 1px #f4f4f4;
+			padding: 5px 5px 5px 2px;
+		}
+		.bigCatalog .footerCatag .footerLeft .microTitle{
+			float: left;
+			width: 155px;
+			height: 81px;
+			font-family: 'Helvetica';
+			color: #777;
+			font-size: 10px;
+			text-align: left;
+		}
+		.bigCatalog .footerCatag .footerLeft .logo{
+			text-align: center;
+
+		}
+		/*FIN FOOTER LEFT*/
+		/*FOOTERRIGHT*/
+		.bigCatalog .footerCatag .footerRight{
+			float: left;
+			width: 190px;
+			min-height: 80px;
+			padding: 4px 0px 0px 4px;
+			border-top:solid 1px #f4f4f4;
+		}
+		.bigCatalog .footerCatag .info{
+			float: left;
+			min-height: 60px;
+			border:solid 1px #f4f4f4;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+		}
+		.bigCatalog .footerCatag .info .text{
+			float: left;
+			width: 111px;
+			min-height: 55px;
+			border-right:solid 1px #f4f4f4;
+			border-bottom:solid 1px #f4f4f4;
+		}
+		.bigCatalog .footerCatag .info .descuento{
+			float: left;
+			border-right: solid 1px #f4f4f4;
+			border-bottom: solid 1px #f4f4f4;
+			height: 28px;
+			width: 40px;
+			font-family: 'Helvetica';
+			color: #2CC1E7;
+			font-size: 16px;
+			font-weight: bolder;
+			text-align: center;
+			line-height: 28px;
+			vertical-align: middle;
+		}
+		.bigCatalog .footerCatag .info .hora{
+			float: left;
+			border-bottom: solid 1px #f4f4f4;
+			height: 28px;
+			width: 70px;
+			line-height: 28px;
+			padding: 0px 0px 0px 20px;
+			font-family: 'Helvetica';
+			font-size: 10px;
+			color: #999;
+			font-weight: bold;
+			vertical-align: middle;
+			background: url('../images/plataform/home-bg-cupons-tiempo.gif') no-repeat scroll 6px 6px transparent;
+		}
+		.bigCatalog .footerCatag .info .precioReal{
+			float: left;
+			width: 111px;
+			height: 25px;
+			text-decoration: line-through;
+			font-size: 14px;
+			line-height: 25px;
+			vertical-align: 23px;
+			font-family: 'Helvetica';
+			font-weight: bold;
+			text-align: center;
+			color: #999;
+		}
+		.bigCatalog .footerCatag .info .precioDescuento{
+			float: left;
+			width: 74px;
+			min-height:55px; 
+			border-bottom: solid 1px #f4f4f4;
+			line-height: 55px;
+			vertical-align: middle;
+			text-align: center;
+			font-family: 'Helvetica';
+			font-weight: bold;
+			text-align: center;
+			font-size: 18px;
+			color: #69B80A;
+		}
+		.bigCatalog .footerCatag .info .boton{
+			float: left;
+			width: 190px;
+			height: 25px;
+			font-family: 'Helvetica';
+			font-weight: bold;
+			text-align: center;
+			font-size: 11px;
+			line-height: 25px;
+			vertical-align: middle;
+			background: #4AB0E1;
+			text-shadow: -1px -1px 0 #1584FF;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+			color:#fff;
+		}
+		/*FIN FOOTER RIGHT*/
+	/*FIN FOOTER*/
+/*FIN BIG CATALOG*/

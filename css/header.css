@@ -1,0 +1,47 @@
+/*HEADER*/
+.header-navbar{
+	border-radius: 0px;
+	border-bottom: none;
+}
+.float-logo{
+	position: absolute;
+}
+.menu-navbar{
+	padding-left: 100px;
+}
+.buttons-top{
+	height: 30px;
+}
+.button-top-item{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	float: left;
+	height: 35px; 
+	color: #999;
+	cursor: pointer;
+	padding: 0px 20px 0px 20px;
+	border-bottom: 0px;
+}
+.button-top-item:hover{
+	color: #FFF;
+}
+.no-shadow{
+	box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.tabs-no-border{
+	border:none;
+}
+.tabs-top .nav-tabs li.active a{
+	background: #EEE;
+	cursor: pointer;
+}
+.tabs-top .nav-tabs li.noactive a{
+	background: none;
+	color: #428bca;
+	cursor: pointer;
+}
+.tabs-top .navbar-form{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

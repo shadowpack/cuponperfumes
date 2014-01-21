@@ -1,0 +1,435 @@
+.checkout{
+	height: 800px;
+	padding: 50px 0px 50px 0px;
+	background: #FFF;
+}
+.checkout .headerTop{
+	float: left;
+	height: 80px;
+	padding: 20px 10% 20px 4%;
+	border: 1px #CCC solid;
+	border-bottom: none;
+	background: #FFF;
+	width: 100%;
+}
+.checkout .figura{
+	float: left;
+	height: 35px;
+	width: 35px;
+	border-radius: 20px;
+	background: #4AB0E1;
+	text-align: center;
+	line-height: 35px;
+	vertical-align: middle;
+	font-size: 18px;
+	color: #FFF;
+	font-weight: bold;
+}
+.checkout .title{
+	float: left;
+	font-family: 'Helvetica';
+	font-size: 22px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	color:#666;
+	padding: 0px 10px 0px 10px;
+}
+.checkout .checkoutItem{
+	float: left;
+	background: #FFF;
+	border: 1px #CCC solid;
+	border-top: none;
+	border-bottom: none;
+	width: 100%;
+	padding: 10px 5% 10px 5%;
+}
+.checkout .precioNombre{
+	float: left;
+	height: 90px;
+	line-height: 80px;
+	color: #666;
+	vertical-align: middle;
+	font-size: 18px;
+	width: 130px;
+	font-family: 'Helvetica';
+	padding: 0px 20px 0px 10px;
+}
+.checkout .precioDescripcion{
+	float: left;
+	height: 90px;
+	color: #666;
+	vertical-align: middle;
+	font-size: 11px;
+	font-family:Arial, Geneva, sans-serif;
+	width: 400px;
+	font-family: 'Helvetica';
+	padding: 0px 20px 0px 0px;
+	border-right: 1px #CCC dashed;
+}
+.checkout .DescripcionTitle{
+	float: left;
+	height: 30px;
+	font-size: 16px;
+}
+.checkout .DescripcionContent{
+	float: left;
+	height: 60px;
+}
+.checkout .Cantidad{
+	float: left;
+	width: 170px;
+	height: 90px;
+	border-right: 1px #CCC dashed;
+}
+.checkout .Cantidad .CantidadTitle{
+	float: left;
+	height: 30px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #666;
+	width: 170px;
+	text-align: center;
+}
+.checkout .Cantidad .CantidadContent{
+	float: left;
+	height: 40px;
+	width: 80px;
+	padding: 5px 20px 15px 20px;
+}
+.checkout .Cantidad .amount{
+	float: left;
+	width: 90px;
+	height: 45px;
+	line-height: 40px;
+	margin-left: 20px;
+	vertical-align: middle;
+	border: 1px #CCC solid;
+}
+.checkout .Cantidad .amountNumber{
+	float: left;
+	width: 50px;
+	height: 40px;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+	font-size: 18px;
+	color: #666;
+	font-family: 'Helvetica';
+}
+.checkout .Cantidad .boton{
+	float: left;
+	padding: 2.5px 2.5px 2.5px 2.5px;
+}
+.checkout .Cantidad .amountUp{
+	float: left;
+	width: 25px;
+	height: 15px;
+	line-height: 15px;
+	vertical-align: middle;
+	text-align: center;
+	background: #FF9933;
+	color: #FFF;
+	font-size: 14px;
+	font-family: 'Helvetica';
+	border-radius: 2px;
+	cursor: pointer;
+}
+.checkout .Cantidad .amountDown{
+	float: left;
+	width: 25px;
+	height: 15px;
+	line-height: 15px;
+	vertical-align: middle;
+	text-align: center;
+	background: #FF9933;
+	color: #FFF;
+	font-size: 14px;
+	font-family: 'Helvetica';
+	border-radius: 2px;
+	cursor: pointer;
+}
+.checkout .Precio{
+	float: left;
+	height: 90px;
+	color: #666;
+	vertical-align: middle;
+	font-size: 11px;
+	width: 180px;
+	border-right: 1px #CCC dashed;
+}
+.checkout .Precio .PrecioTitle{
+	float: left;
+	height: 30px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #666;
+	width: 180px;
+	text-align: center;
+}
+.checkout .Precio .PrecioDContent{
+	float: left;
+	height: 30px;
+	width: 180px;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Helvetica';
+	color: #4AB0E1;
+	font-weight: bold;
+}
+.checkout .Precio .PrecioRContent{
+	float: left;
+	height: 30px;
+	width: 180px;
+	font-size: 14px;
+	text-decoration: line-through;
+	font-family: 'Helvetica';
+	text-align: center;
+}
+.checkout .Total{
+	float: left;
+	height: 90px;
+	color: #666;
+	vertical-align: middle;
+	font-size: 11px;
+	width: 165px;
+}
+.checkout .Total .TotalTitle{
+	float: left;
+	height: 30px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #666;
+	width: 165px;
+	text-align: center;
+}
+.checkout .Total .TotalContent{
+	float: left;
+	height: 30px;
+	width: 165px;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Helvetica';
+	color: #4AB0E1;
+	font-weight: bold;
+}
+/*DELIVERY*/
+.checkout #locationsSelect{
+	float: left;
+	height: 120px;
+	border-right: 1px #CCC solid;
+	border-left: 1px #CCC solid;
+	background: #FFF;
+	width: 100%;
+	padding: 10px 5% 10px 5%;
+}
+.checkout .radioDelivery{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	width: 270px;
+	vertical-align: middle;
+	color: #666;
+	font-size: 16px;
+	font-family: 'Helvetica';
+}
+.checkout .locationsRadio{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	width: 430px;
+	vertical-align: middle;
+	color: #666;
+	font-size: 18px;
+	font-family: 'Helvetica';
+	border-left: 1px #CCC dashed;
+	border-right: 1px #CCC dashed;
+}
+.checkout .LocationTitle{
+ 	float: left;
+	height: 30px;
+	line-height: 30px;
+	width: 410px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #666;
+	padding: 0px 0px 0px 25px;
+}
+.checkout .LocationContent{
+ 	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 410px;
+	font-size: 22px;
+	font-family: 'Helvetica';
+	color: #4AB0E1;
+	font-weight: bold;
+	padding: 0px 0px 20px 25px;
+}
+.checkout .precioDelivery{
+	float: left;
+	width: 165px;
+	height: 90px;
+	border-left:1px #CCC dashed;
+}
+.checkout .DeliveryTitle{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #666;
+	width: 165px;
+	text-align: center;
+}
+.checkout .DeliveryContent{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 165px;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Helvetica';
+	color: #4AB0E1;
+	font-weight: bold;
+}
+.checkout .locationDel{
+	float: left;
+	height: 90px;
+}
+.checkout .direccionDelivery{
+	height: 25px;
+	width: 380px;
+	font-size: 14px;
+}
+.checkout .unitarioDespacho{
+	float: left;
+	width: 180px;
+}
+.checkout .unitarioDespachoTitle{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #666;
+	width: 165px;
+	text-align: center;
+}
+.checkout .unitarioDespachoContent{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 165px;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Helvetica';
+	color: #4AB0E1;
+	font-weight: bold;
+}
+/*FORMA DE PAGO*/
+.checkout .FormaPagoSelect{
+	float: left;
+	height: 200px;
+	border: 1px #CCC solid;
+	border-top: none;
+	background: #FFF;
+	width: 100%;
+	padding: 10px 5% 20px 5%;
+}
+.checkout .SelectPago{
+	float: left;
+	width: 880px;
+	height: 120px;
+	border-right:1px #CCC dashed;
+}
+.checkoutPagoRow{
+	height: 160px;
+}
+.checkout .FormaPagoSelect .credito{
+	float: left;
+	height: 120px;
+	border-top: none;
+	background: #FFF;
+	width: 420px;
+	cursor: pointer;
+}
+.checkout .FormaPagoSelect .transbank{
+	float: left;
+	height: 120px;
+	border-top: none;
+	background: #FFF;
+	width: 420px;
+	cursor: pointer;
+}
+.checkout .radioPago{
+	float: left;
+	height: 30px;
+	width: 20px;
+	padding: 45px 20px 45px 20px;
+}
+.checkout .FormaPagoSelect .credito .webpayCreditoImg{
+	float: left;
+	width: 170px;
+	height: 120px;
+	padding: 10px 10px 10px 10px;
+	border:1px #CCC solid;
+}
+.checkout .FormaPagoSelect .transbank .webpayRedCompraImg{
+	float: left;
+	width: 140px;
+	height: 120px;
+	padding: 10px 10px 10px 10px;
+	border:1px #CCC solid;
+}
+.checkout .SelectPago .Pdescription{
+	float: left;
+	width: 250px;
+	height: 120px;
+}
+.checkout .titleMethod{
+	float: left;
+	width: 220px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #333;
+	vertical-align: middle;
+	padding: 0px 10px 0px 20px;
+}
+.checkout .contentMethod{
+	float: left;
+	width: 220px;
+	height: 70px;
+	font-size: 14px;
+	font-family: 'Helvetica';
+	color: #666;
+	padding: 10px 10px 0px 20px;
+}
+.checkout .PagoTotal{
+	float: left;
+	width: 165px;
+	height: 120px;
+}
+.checkout .PagoTotal .PagoTitle{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: 'Helvetica';
+	color: #666;
+	width: 165px;
+	text-align: center;
+}
+.checkout .PagoTotal .PagoContent{
+	float: left;
+	height: 60px;
+	width: 165px;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Helvetica';
+	color: #4AB0E1;
+	line-height: 60px;
+	vertical-align: middle;
+	font-weight: bold;
+}

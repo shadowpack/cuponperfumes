@@ -1,0 +1,82 @@
+.edit-product-message{
+	max-height: 700px;
+	overflow-y: scroll;
+}
+.edit-content{
+	width: 1200px;
+}
+.imagenProduct{
+	margin: 6.5px;
+	border: 1px #CCC solid;
+	height: 199px;
+}
+
+.portrait{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 20px;
+  display: inherit;
+}
+.product_slider_edit{
+	height: 240px;
+	border: 1px #CCC solid;
+}
+.uploadimagemod{
+  float: left;
+  margin-top: 20px;
+}
+.uploadimagecategory{
+  float: left;
+  margin-top: 20px;
+}
+.carrousel{
+  max-height: 84px;
+  overflow-y: none;
+  overflow-x: hidden;
+  width: 335px;
+  float: left;
+  margin-top: 10px;
+}
+.carrousel_container{
+  height: inherit;
+  overflow: hidden;
+  width: 50px;
+  float: left;
+}
+.carrousel_item{
+  float: left;
+  height: 70px;
+  margin: 5px;
+  border: 1px #ccc solid;
+  width: 80px;
+  padding: 5px;
+  opacity: 0.5;
+}
+/* White icons with optional class, or on hover/focus/active states of certain elements */
+
+
+/*
+#menuRight ul{
+      list-style: none;
+      list-style-type: none;
+      list-style-position: outside;
+      background-color: white;
+}
+ 
+#menuRight li{
+      line-height: 30px;
+      font-size: 16px;
+      cursor:pointer;
+      background-color: white;
+}
+ 
+#menuRight{
+      width:250px;
+      position:absolute;      
+      border:1px solid black;
+       background-color: white;
+      -moz-box-shadow: 0 0 5px #888;
+      -webkit-box-shadow: 0 0 5px#888;
+      box-shadow: 0 0 5px #888;
+}*/

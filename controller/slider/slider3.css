@@ -1,0 +1,61 @@
+.imagesSlider3{
+	position: relative;
+	height: 143px;
+	width: 100%;
+}
+.imagesSlider3 .imagelider{
+	position: relative;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100%;
+}
+.imagesSlider3 .btn_prev{
+	position: absolute;
+	top:50%;
+	margin-top: -19px;
+	margin-left: -50px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.imagesSlider3 .btn_next{
+	position: absolute;
+	top:50%;
+	margin-top: -19px;
+	margin-right: -50px;
+	right: 0px;
+	cursor: pointer;
+}
+.imagesSlider3 .imagesMov{
+}
+.imagesSlider3 .imageItem{
+	float: left;
+	left: 2.5%;
+	width: 380px;
+	text-align: center;
+	cursor: pointer;
+}
+.slider-catalog{
+	position: relative;
+	height: 380px;
+	width: 100%;
+}
+.slider-catalog .btn_prev_catalog{
+	position: absolute;
+	top:50%;
+	margin-top: -19px;
+	margin-left: -38px;
+	cursor: pointer;
+}
+.slider-catalog .slider-catalog-images{
+	overflow: hidden;
+	height: inherit;
+}
+.slider-catalog .btn_next_catalog{
+	position: absolute;
+	top:50%;
+	left: 100%;
+	margin-top: -19px;
+	cursor: pointer;
+
+}
